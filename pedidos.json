@@ -1,0 +1,28 @@
+[
+    {
+        "fecha": "2023-10-01",
+        "cliente": "615a1b2e3f4c5d6e7f8a9b0c",
+        "productos": [
+            {
+                "producto": "615a1b2e3f4c5d6e7f8a9b1c",
+                "cantidad": 1
+            },
+            {
+                "producto": "615a1b2e3f4c5d6e7f8a9b1d",
+                "cantidad": 2
+            }
+        ],
+        "estado": "Enviado"
+    },
+    {
+        "fecha": "2023-10-02",
+        "cliente": "615a1b2e3f4c5d6e7f8a9b0d",
+        "productos": [
+            {
+                "producto": "615a1b2e3f4c5d6e7f8a9b1c",
+                "cantidad": 3
+            }
+        ],
+        "estado": "Pendiente"
+    }
+]

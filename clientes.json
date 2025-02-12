@@ -1,0 +1,14 @@
+[
+    {
+      "_id": "615a1b2e3f4c5d6e7f8a9b0c",
+      "nombres": "Juan Pérez",
+      "dirección": "Calle 123, Ciudad",
+      "género": "Masculino"
+    },
+    {
+      "_id": "615a1b2e3f4c5d6e7f8a9b0d",
+      "nombres": "María López",
+      "dirección": "Avenida 456, Ciudad Nueva",
+      "género": "Femenino"
+    }
+  ]

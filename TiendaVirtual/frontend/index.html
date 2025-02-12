@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Virtual</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Tienda Virtual</h1>
+
+  <!-- Formulario para agregar clientes -->
+  <h2>Agregar Cliente</h2>
+  <form id="formCliente">
+    <input type="text" id="nombres" placeholder="Nombres" required>
+    <input type="text" id="direccion" placeholder="Dirección" required>
+    <input type="text" id="genero" placeholder="Género" required>
+    <button type="submit">Agregar</button>
+  </form>
+
+  <!-- Lista de clientes -->
+  <h2>Clientes</h2>
+  <ul id="listaClientes"></ul>
+
+  <!-- Formulario para agregar productos -->
+  <h2>Agregar Producto</h2>
+  <form id="formProducto">
+    <input type="text" id="nombreProducto" placeholder="Nombre" required>
+    <input type="text" id="descripcionProducto" placeholder="Descripción" required>
+    <input type="number" id="precioProducto" placeholder="Precio" required>
+    <button type="submit">Agregar</button>
+  </form>
+
+  <!-- Lista de productos -->
+  <h2>Productos</h2>
+  <ul id="listaProductos"></ul>
+
+  <!-- Formulario para agregar pedidos -->
+  <h2>Agregar Pedido</h2>
+  <form id="formPedido">
+    <input type="date" id="fechaPedido" required>
+    <input type="number" id="cantidadPedido" placeholder="Cantidad" required>
+    <select id="clientePedido" required>
+      <option value="" disabled selected>Seleccione un cliente</option>
+      <!-- Aquí se agregarán las opciones de clientes dinámicamente -->
+    </select>
+    <select id="productoPedido" required>
+      <option value="" disabled selected>Seleccione un producto</option>
+      <!-- Aquí se agregarán las opciones de productos dinámicamente -->
+    </select>
+    <button type="submit">Agregar</button>
+  </form>
+
+  <!-- Lista de pedidos -->
+  <h2>Pedidos</h2>
+  <ul id="listaPedidos"></ul>
+
+  <!-- Script para la lógica del frontend -->
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+[
+    {
+      "_id": "615a1b2e3f4c5d6e7f8a9b1c",
+      "nombres": "Laptop HP",
+      "descripción": "Laptop de 15 pulgadas, 8GB RAM",
+      "precio": 1200.50
+    },
+    {
+      "_id": "615a1b2e3f4c5d6e7f8a9b1d",
+      "nombres": "Smartphone Samsung",
+      "descripción": "Teléfono inteligente con 128GB de almacenamiento",
+      "precio": 800.00
+    }
+  ]
